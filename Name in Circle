@@ -1,0 +1,10 @@
+import turtle
+text="VISHESH"
+turtle.pu()
+x=len(text)
+for i in text:
+    turtle.write(i,font=('consolas', 16, 'normal'))
+    turtle.rt(360/x)
+    turtle.pu()
+    turtle.fd(30)
+turtle.hideturtle()
